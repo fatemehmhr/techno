@@ -1,0 +1,51 @@
+.ContentSearchPage{
+    width: 70%;   
+    .header-content-body{
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        .header-content-location{
+            background-color: chocolate;
+        }
+        
+        .header-content-switch{
+        display: flex;
+    
+        .switch{
+            border: 1px solid black;
+            margin:10px 0 0 30px;
+            padding: 10px;
+            border-radius: 10px;
+            span{
+                margin-left: 30px;
+            }
+        }
+    
+        }
+    }
+    .header-content-order{
+        display: flex;
+        justify-content: space-between;
+        .order{
+            background-color: aqua;
+        }
+        .map{
+            background-color: darkblue;
+        }
+    }
+    .content-card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        // margin: auto;
+        justify-content: center;
+        
+
+    }
+    .card-map{
+        margin: 50px !important;
+    }
+}
+
+
