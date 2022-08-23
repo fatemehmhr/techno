@@ -2,10 +2,26 @@
     width: 70%;   
     .header-content-body{
         display: flex;
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
         justify-content: space-between;
+        align-items: center;
+        margin: 20px;
         .header-content-location{
-            background-color: chocolate;
+            width: 430px;
+            display: flex;
+            background-color: #f8f8f8;
+            justify-content: space-between;
+            padding: 15px;
+            .header-content-location-right{
+                
+                // margin-top: 20px;
+            }
+            .header-content-location-left{
+                // margin: 20px 10px 10px 30px;
+                span{
+                    margin-left: 10px;
+                }
+            }
         }
         
         .header-content-switch{
@@ -13,7 +29,7 @@
     
         .switch{
             border: 1px solid black;
-            margin:10px 0 0 30px;
+            margin:0 0 0 30px;
             padding: 10px;
             border-radius: 10px;
             span{
@@ -26,11 +42,42 @@
     .header-content-order{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .order{
-            background-color: aqua;
+            display: flex;
+            .sort-priority{
+                span{
+                    margin: 10px 0 0 30px;
+                    font-weight: bold;
+                    font-size: 14px;
+                    display: block;
+                }
+            }
+            .order-list{
+                display: flex;
+                align-items: center;
+                .order-list-item{
+                    margin: 0 0 0 30px;
+                    font-size: 14px;
+                    
+                }
+                .order-list-item.select{
+                    color: #01806b;
+                    background-color: #cce6e1;
+                    border-radius: 10px;
+                    padding: 10px;
+                    
+
+                }
+            }
         }
         .map{
-            background-color: darkblue;
+            background-color: #303030;
+            border-radius: 23px;
+            color: #fff;
+            padding: 6px 28px;
+            margin: 13px 0 20px 32px;
+            font-weight: 600;
         }
     }
     .content-card{
@@ -45,6 +92,12 @@
     }
     .card-map{
         margin: 50px !important;
+    }
+
+    .pagination{
+        text-align: center;
+        padding: 40px;
+        
     }
 }
 

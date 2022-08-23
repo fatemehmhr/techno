@@ -1,12 +1,50 @@
-.SidebarSearchPage{
-    width: 30%;
-    border: 1px solid rebeccapurple;
-    padding: 30px;
-    margin: 4px 30px 0 40px;
-    
-    .SidebarSearchPage-box{
-        justify-content: right;
+.SidebarSearchPage {
+  width: 30%;
+  padding: 30px;
+  margin: 4px 30px 0 40px;
 
-    }
+  .SidebarSearchPage-box {
+    justify-content: right;
+  }
+  .box-sidebar {
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
     
+  }
+  .box-sidebar-Domicile {
+    border: 1px solid rgb(165, 161, 161);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+    .box-sidebar-Domicile-type,
+    .box-sidebar-Domicile-room,
+    .box-sidebar-Domicile-bed {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      font-weight: bolder;
+      border-bottom: 1px solid rgb(165, 161, 161);
+    }
+    .box-sidebar-Domicile-type,
+    .box-sidebar-Domicile-room {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .box-sidebar-filter,
+  .box-sidebar-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid rgb(165, 161, 161);
+    margin-top: 20px;
+    border-radius: 5px;
+  }
 }
